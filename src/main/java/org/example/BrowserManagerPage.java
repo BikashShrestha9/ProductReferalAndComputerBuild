@@ -14,7 +14,7 @@ public class BrowserManagerPage extends Utils {
     }
 
     public void closeBrowser(){
-        //driver.quit();
+        driver.quit();
 
     }
 

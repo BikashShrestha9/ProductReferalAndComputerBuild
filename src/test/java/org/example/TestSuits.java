@@ -44,7 +44,6 @@ public class TestSuits extends BaseTest{
         // verifying that item added in the shopping cart
         shoppingCartVerificationPage.verifyShoppingItem();
 
-
     }
 
 }

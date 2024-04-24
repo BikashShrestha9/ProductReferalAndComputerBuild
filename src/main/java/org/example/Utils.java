@@ -37,8 +37,6 @@ public class Utils extends BasePage {
 
     }
 
-    public void clickBuildYourComputer(){
-        clickOnElement(By.linkText("Build your own computer"));
-    }
+
 
 }
