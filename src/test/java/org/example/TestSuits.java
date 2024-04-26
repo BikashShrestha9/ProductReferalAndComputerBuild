@@ -7,6 +7,7 @@ public class TestSuits extends BaseTest{
     HomePage homePage= new HomePage();
     RegisterPage registerPage= new RegisterPage();
     RegistrationVerifyPage resultVerifyPage= new RegistrationVerifyPage();
+    BuildYourOwnComputerPage buildYourOwnComputerPage= new BuildYourOwnComputerPage();
     LogInPage logInPage= new LogInPage();
     BuildYourComputer buildYourComputer=new BuildYourComputer();
     ShoppingCartVerificationPage shoppingCartVerificationPage= new ShoppingCartVerificationPage();
@@ -38,7 +39,8 @@ public class TestSuits extends BaseTest{
         //logging back with register credentials from the login page
         logInPage.login();
         // navigating to the build your own computer page
-        homePage.clickBuildYourComputer();
+        buildYourOwnComputerPage.clickBuildYourComputer();
+
         //selecting parts for the computer
         buildYourComputer.selectComputerParts();
         // verifying that item added in the shopping cart

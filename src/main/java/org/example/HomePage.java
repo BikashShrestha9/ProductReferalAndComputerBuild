@@ -7,7 +7,5 @@ public class HomePage extends Utils {
         clickOnElement(By.linkText("Register"));
 
     }
-    public void clickBuildYourComputer(){
-        clickOnElement(By.xpath("//button[@class='button-2 product-box-add-to-cart-button']"));
-    }
+
 }

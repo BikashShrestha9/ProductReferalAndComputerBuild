@@ -29,12 +29,12 @@ public class Utils extends BasePage {
     public static void selectByVisibleText(By by, String txt){
         Select select = new Select(driver.findElement(by));
         select.selectByVisibleText(txt);
+
     }
 
     public static void selectByValue(By by, String txt){
         Select select = new Select(driver.findElement(by));
         select.selectByValue(txt);
-
     }
 
 

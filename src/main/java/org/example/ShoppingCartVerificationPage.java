@@ -10,5 +10,6 @@ public class ShoppingCartVerificationPage extends Utils {
     public void verifyShoppingItem(){
         //checking expected message with actual message
         Assert.assertEquals(getTxtFromElement(By.className("product-name")), expectedMsg);
+
     }
 }
