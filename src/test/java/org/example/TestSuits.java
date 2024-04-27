@@ -25,7 +25,7 @@ public class TestSuits extends BaseTest{
         resultVerifyPage.verifySuccessfulRegistration();
 
     }
-    @Test
+    @Test()
     public void verifyRegisteredUserShouldBeAbleToBuildComp(){
         //click on register button
         homePage.clickOnRegister();
